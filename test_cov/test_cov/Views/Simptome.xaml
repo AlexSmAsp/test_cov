@@ -8,7 +8,7 @@
              Title="Simptome">
   <ContentPage.Content>
       <StackLayout>
-            <Label Text="Simptome§§§§§!" />
+            <Label Text="Simptome§§§§§cccccc!" />
       </StackLayout>
   </ContentPage.Content>
 </ContentPage>
