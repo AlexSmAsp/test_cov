@@ -1,0 +1,29 @@
+﻿<?xml version="1.0" encoding="utf-8" ?>
+<MasterDetailPage xmlns="http://xamarin.com/schemas/2014/forms"
+             xmlns:x="http://schemas.microsoft.com/winfx/2009/xaml"
+             xmlns:d="http://xamarin.com/schemas/2014/forms/design"
+             xmlns:mc="http://schemas.openxmlformats.org/markup-compatibility/2006"
+             mc:Ignorable="d"
+             x:Class="test_cov.MainPage"
+                  Title="MasterPages">
+    <MasterDetailPage.Master>
+        <ContentPage Title="Master" BackgroundColor="Accent">
+            <ContentPage.Content>
+                <StackLayout Padding="5,30,5,5">
+                    <Button Text="Covid" Clicked="bnt_1"></Button>
+                    <Button Text="Simptome" Clicked="bnt_2"></Button>
+                </StackLayout>
+            </ContentPage.Content>
+        </ContentPage>
+    </MasterDetailPage.Master>
+
+
+    <MasterDetailPage.Detail>
+        <ContentPage Title="Master" BackgroundColor="Accent">
+            <ContentPage.Content>
+                <Label Text="DetailPage" VerticalOptions="Center" HorizontalOptions="Center"></Label>
+            </ContentPage.Content>
+        </ContentPage>
+    </MasterDetailPage.Detail>
+
+</MasterDetailPage>
