@@ -7,23 +7,35 @@
              x:Class="test_cov.MainPage"
                   Title="MasterPages">
     <MasterDetailPage.Master>
-        <ContentPage Title="Master" BackgroundColor="Accent">
+        <ContentPage Title="Master" BackgroundColor="#34495E">
             <ContentPage.Content>
-                <StackLayout Padding="5,30,5,5">
-                    <Button Text="Covid" Clicked="bnt_1"></Button>
-                    <Button Text="Simptome" Clicked="bnt_2"></Button>
+                <StackLayout Padding="20,150,5,5">
+                    <StackLayout Orientation="Horizontal" HorizontalOptions="FillAndExpand">
+                        <Image WidthRequest="24" HeightRequest="24" Aspect="AspectFit" Source="img_cov_menu.png" HorizontalOptions="Start" ></Image>
+                        <Button Text="Covid-19" Clicked="bnt_1" BackgroundColor="#34495E" TextColor="White" FontSize="Large" HorizontalOptions="StartAndExpand"></Button>
+                    </StackLayout>
+
+                    <StackLayout Orientation="Horizontal" HorizontalOptions="FillAndExpand">
+                        <Image WidthRequest="24" HeightRequest="24" Aspect="AspectFit" Source="img_simtome_menu.png" HorizontalOptions="Start"></Image>
+                        <Button Text="Simptome" Clicked="bnt_2" BackgroundColor="#34495E" TextColor="White" FontSize="Large" HorizontalOptions="StartAndExpand"></Button>
+                    </StackLayout>
+
+                    <StackLayout Orientation="Horizontal" HorizontalOptions="FillAndExpand">
+                        <Image WidthRequest="24" HeightRequest="24" Aspect="AspectFit" Source="img_profilaxie_menu.png" HorizontalOptions="Start"></Image>
+                        <Button Text="Profilaxie" Clicked="bnt_3" BackgroundColor="#34495E" TextColor="White" FontSize="Large" HorizontalOptions="StartAndExpand"></Button>
+                    </StackLayout>
+
+                    <StackLayout Orientation="Horizontal" HorizontalOptions="FillAndExpand">
+                        <Image WidthRequest="24" HeightRequest="24" Aspect="AspectFit" Source="img_tratament_menu.png" HorizontalOptions="Start"></Image>
+                        <Button Text="Tratament" Clicked="bnt_4" BackgroundColor="#34495E" TextColor="White" FontSize="Large" HorizontalOptions="StartAndExpand"></Button>
+                    </StackLayout>
+                    <!--
+                    <Button Text="Simptome" Clicked="bnt_2" BackgroundColor="#34495E" TextColor="White" FontSize="Large" HorizontalOptions="Start"></Button>-->
                 </StackLayout>
             </ContentPage.Content>
         </ContentPage>
     </MasterDetailPage.Master>
 
 
-    <MasterDetailPage.Detail>
-        <ContentPage Title="Master" BackgroundColor="Accent">
-            <ContentPage.Content>
-                <Label Text="DetailPage" VerticalOptions="Center" HorizontalOptions="Center"></Label>
-            </ContentPage.Content>
-        </ContentPage>
-    </MasterDetailPage.Detail>
 
 </MasterDetailPage>

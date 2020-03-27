@@ -6,10 +6,12 @@
              mc:Ignorable="d"
              x:Class="test_cov.Views.covid"
              Title="Covid">
-    
-  <ContentPage.Content>
-      <StackLayout>
-            <Label Text="Covid§§§§§!" />
-      </StackLayout>
-  </ContentPage.Content>
+
+    <ContentPage.Content>
+        <StackLayout>
+            <Label Text="Cov-19 info!"
+                VerticalOptions="CenterAndExpand" 
+                HorizontalOptions="CenterAndExpand" />
+        </StackLayout>
+    </ContentPage.Content>
 </ContentPage>

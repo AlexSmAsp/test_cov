@@ -19,7 +19,7 @@ namespace test_cov
 
             Detail = new NavigationPage(new Views.covid()) 
             {
-                 BarBackgroundColor = Color.FromHex("#000")
+                 BarBackgroundColor = Color.FromHex("#34495E")
             }; 
            
 
@@ -30,7 +30,7 @@ namespace test_cov
         {
             Detail = new NavigationPage(new Views.covid())
             {
-                BarBackgroundColor = Color.FromHex("#000")
+                BarBackgroundColor = Color.FromHex("#34495E")
             };
             IsPresented = false;
         }
@@ -39,7 +39,25 @@ namespace test_cov
         {
             Detail = new NavigationPage(new Views.Simptome())
             {
-                BarBackgroundColor = Color.FromHex("#000")
+                BarBackgroundColor = Color.FromHex("#34495E")
+            };
+            IsPresented = false;
+        }
+
+        private void bnt_3(object sender, EventArgs e)
+        {
+            Detail = new NavigationPage(new Views.Profilaxie())
+            {
+                BarBackgroundColor = Color.FromHex("#34495E")
+            };
+            IsPresented = false;
+        }
+
+        private void bnt_4(object sender, EventArgs e)
+        {
+            Detail = new NavigationPage(new Views.Tratament())
+            {
+                BarBackgroundColor = Color.FromHex("#34495E")
             };
             IsPresented = false;
         }
