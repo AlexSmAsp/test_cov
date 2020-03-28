@@ -5750,7 +5750,7 @@ namespace test_cov.Droid
 			public const int img_profilaxie_menu = 2131165286;
 			
 			// aapt resource value: 0x7F070067
-			public const int img_simtome_menu = 2131165287;
+			public const int img_simtom_cov = 2131165287;
 			
 			// aapt resource value: 0x7F070068
 			public const int img_tratament_menu = 2131165288;

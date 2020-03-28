@@ -16,7 +16,7 @@
                     </StackLayout>
 
                     <StackLayout Orientation="Horizontal" HorizontalOptions="FillAndExpand">
-                        <Image WidthRequest="24" HeightRequest="24" Aspect="AspectFit" Source="img_simtome_menu.png" HorizontalOptions="Start"></Image>
+                        <Image WidthRequest="24" HeightRequest="24" Aspect="AspectFit" Source="img_simtom_cov.png" HorizontalOptions="Start"></Image>
                         <Button Text="Simptome" Clicked="bnt_2" BackgroundColor="#34495E" TextColor="White" FontSize="Large" HorizontalOptions="StartAndExpand"></Button>
                     </StackLayout>
 
