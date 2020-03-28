@@ -14,23 +14,28 @@
                         <Image WidthRequest="24" HeightRequest="24" Aspect="AspectFit" Source="img_cov_menu.png" HorizontalOptions="Start" ></Image>
                         <Button Text="Covid-19" Clicked="bnt_1" BackgroundColor="#34495E" TextColor="White" FontSize="Large" HorizontalOptions="StartAndExpand"></Button>
                     </StackLayout>
-
+                    <BoxView HorizontalOptions = "FillAndExpand" HeightRequest="1" Color = "White" Margin="0,0,5,0" />
                     <StackLayout Orientation="Horizontal" HorizontalOptions="FillAndExpand">
                         <Image WidthRequest="24" HeightRequest="24" Aspect="AspectFit" Source="img_simtom_cov.png" HorizontalOptions="Start"></Image>
                         <Button Text="Simptome" Clicked="bnt_2" BackgroundColor="#34495E" TextColor="White" FontSize="Large" HorizontalOptions="StartAndExpand"></Button>
                     </StackLayout>
-
+                    <BoxView HorizontalOptions = "FillAndExpand" HeightRequest="1" Color = "White" Margin="0,0,5,0" />
                     <StackLayout Orientation="Horizontal" HorizontalOptions="FillAndExpand">
                         <Image WidthRequest="24" HeightRequest="24" Aspect="AspectFit" Source="img_profilaxie_menu.png" HorizontalOptions="Start"></Image>
                         <Button Text="Profilaxie" Clicked="bnt_3" BackgroundColor="#34495E" TextColor="White" FontSize="Large" HorizontalOptions="StartAndExpand"></Button>
                     </StackLayout>
-
+                    <BoxView HorizontalOptions = "FillAndExpand" HeightRequest="1" Color = "White" Margin="0,0,5,0" />
                     <StackLayout Orientation="Horizontal" HorizontalOptions="FillAndExpand">
                         <Image WidthRequest="24" HeightRequest="24" Aspect="AspectFit" Source="img_tratament_menu.png" HorizontalOptions="Start"></Image>
                         <Button Text="Tratament" Clicked="bnt_4" BackgroundColor="#34495E" TextColor="White" FontSize="Large" HorizontalOptions="StartAndExpand"></Button>
                     </StackLayout>
-                    <!--
-                    <Button Text="Simptome" Clicked="bnt_2" BackgroundColor="#34495E" TextColor="White" FontSize="Large" HorizontalOptions="Start"></Button>-->
+                    <BoxView HorizontalOptions = "FillAndExpand" HeightRequest="1" Color = "White" Margin="0,0,5,0" />
+                    <StackLayout Orientation="Horizontal" HorizontalOptions="FillAndExpand">
+                        <Image WidthRequest="24" HeightRequest="24" Aspect="AspectFit" Source="img_primulajutor_menu.png" HorizontalOptions="Start"></Image>
+                        <Button Text="Primul ajutor" Clicked="bnt_5" BackgroundColor="#34495E" TextColor="White" FontSize="Large" HorizontalOptions="StartAndExpand"></Button>
+                    </StackLayout>
+                    <BoxView HorizontalOptions = "FillAndExpand" HeightRequest="4" Color = "White" Margin="0,0,5,0" />
+                   
                 </StackLayout>
             </ContentPage.Content>
         </ContentPage>

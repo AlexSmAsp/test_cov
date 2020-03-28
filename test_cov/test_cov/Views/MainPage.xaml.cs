@@ -59,7 +59,16 @@ namespace test_cov
             {
                 BarBackgroundColor = Color.FromHex("#34495E")
             };
-            IsPresented = false;
+            IsPresented = false; 
+        }
+
+        private void bnt_5(object sender, EventArgs e)
+        {
+            Detail = new NavigationPage(new Views.Primulajutor())
+            {
+                BarBackgroundColor = Color.FromHex("#34495E")
+            };
+            IsPresented = false; 
         }
     }
 }
