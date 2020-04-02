@@ -4,7 +4,8 @@
              xmlns:d="http://xamarin.com/schemas/2014/forms/design"
              xmlns:mc="http://schemas.openxmlformats.org/markup-compatibility/2006"
              mc:Ignorable="d"
-             x:Class="test_cov.Views.Primulajutor">
+             x:Class="test_cov.Views.Primulajutor"
+             Title="Primul ajutor">
     <ContentPage.Content>
         <StackLayout>
             <Label Text="Primul ajutor"

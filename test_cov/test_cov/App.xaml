@@ -6,6 +6,15 @@
              mc:Ignorable="d"
              x:Class="test_cov.App">
     <Application.Resources>
-
+        <ResourceDictionary>
+            <Style TargetType="Button">
+                <Setter Property="FontFamily" Value="Montserrat-Regular.otf#Montserrat-Regular"></Setter>
+            </Style>
+        </ResourceDictionary>
+        <!--<ResourceDictionary>
+            <Style TargetType="Button">
+                <Setter Property="FontFamily" Value="BalooThambi2-Regular.ttf#BalooThambi2-Regular"></Setter>
+            </Style>
+        </ResourceDictionary>-->
     </Application.Resources>
 </Application>
