@@ -4,6 +4,7 @@ using System.ComponentModel;
 using System.Linq;
 using System.Text;
 using System.Threading.Tasks;
+using test_cov.Models;
 using Xamarin.Forms;
 
 namespace test_cov
@@ -23,7 +24,7 @@ namespace test_cov
 
             };
             IsPresented = false;
-            ///////////////////////////////////////////ToolbarItem//////////////////////////////////////////////////////
+           ///////////////////////////ToolbarItem///////////////////
             ToolbarItem tb = new ToolbarItem
             {
                 Text = "Andrei",
@@ -47,9 +48,10 @@ namespace test_cov
             ToolbarItems.Add(tb);
             ToolbarItems.Add(tb1);
             ToolbarItems.Add(tb2);
-          
+            
+
         }
-        /////////////////////////////////////////////////bnt_menu///////////////////////////////////////////////////////////
+       ////////////////////////bnt_menu//////////////////////////////
         private void bnt_1(object sender, EventArgs e)
         {
             Detail = new NavigationPage(new Views.covid())
@@ -95,5 +97,7 @@ namespace test_cov
             IsPresented = false; 
         }
         /////////////////////////////////////////////////////////////////////////
+        
+
     }
 }

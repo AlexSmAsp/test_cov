@@ -7,8 +7,14 @@
              x:Class="test_cov.MainPage"
                   Title="MasterPages">
     <MasterDetailPage.Master>
+        
         <ContentPage Title="Master" BackgroundColor="#34495E">
+            
+           
             <ContentPage.Content>
+                
+
+                
                 <StackLayout Padding="20,150,5,5">
                     <StackLayout Orientation="Horizontal" HorizontalOptions="FillAndExpand">
                         <Image WidthRequest="24" HeightRequest="24" Aspect="AspectFit" Source="img_cov_menu.png" HorizontalOptions="Start" ></Image>

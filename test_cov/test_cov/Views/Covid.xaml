@@ -12,6 +12,19 @@
             <Label Text="Cov-19 info!"
                 VerticalOptions="CenterAndExpand" 
                 HorizontalOptions="CenterAndExpand" />
+            <!--//////////////////LoadDataCommand//////////////////////-->
+            <StackLayout>
+                <Button Text="ccccccc" Command="{Binding LoadDataCommand}"  />
+
+                <Label FontSize="Medium" Text="confirmed" />
+                <Label FontSize="Medium" FontAttributes="Bold"   Text="{Binding Value_c}" />
+
+                <Label FontSize="Medium" Text="recovered" />
+                <Label FontSize="Medium" FontAttributes="Bold"   Text="{Binding Value_r}" />
+
+                <Label FontSize="Medium" Text="deaths" />
+                <Label FontSize="Medium" FontAttributes="Bold"   Text="{Binding Value_d}" />
+            </StackLayout>
         </StackLayout>
     </ContentPage.Content>
 </ContentPage>

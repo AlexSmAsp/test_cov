@@ -3,7 +3,7 @@ using System.Collections.Generic;
 using System.Linq;
 using System.Text;
 using System.Threading.Tasks;
-
+using test_cov.Models;
 using Xamarin.Forms;
 using Xamarin.Forms.Xaml;
 
@@ -14,7 +14,12 @@ namespace test_cov.Views
     {
         public covid()
         {
+            RateViewModel viewModel;
             InitializeComponent();
+            ///////////////////////////RateInfo///////////////////
+            viewModel = new RateViewModel();
+            // установка контекста данных
+            this.BindingContext = viewModel;
         }
     }
 }
